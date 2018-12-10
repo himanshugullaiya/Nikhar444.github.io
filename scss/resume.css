@@ -1,0 +1,136 @@
+.resume .info-section {
+  width: 23%;
+}
+.resume .content-area {
+  background: #fefefe;
+  width: 77%;
+  margin-left: 23%;
+  min-width: 300px;
+  background: white;
+  height: 100%;
+  padding: 0px 52px 52px 56px;
+}
+.resume .content-area h1 {
+  padding-top: 52px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding-bottom: 40px;
+}
+.resume .content-area .xp-section {
+  width: 82%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5.3rem;
+  grid-row-gap: 15px;
+}
+.resume .content-area .xp-section .xp-box {
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.resume .content-area .xp-section .xp-box:hover {
+  -webkit-box-shadow: 0 5px 35px 5px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 5px 35px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 5px 35px 5px rgba(0, 0, 0, 0.12);
+}
+.resume .content-area .xp-section .xp-box h5 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+.resume .content-area .xp-section .xp-box p {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #272727;
+  font-size: 0.8rem;
+  padding-bottom: 0.3rem;
+}
+.resume .content-area .xp-section .xp-box b {
+  color: #272727;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+@media (max-width: 767px) {
+  .resume {
+    overflow: hidden;
+  }
+  .resume .menu-icon {
+    top: -5px;
+    right: 10px;
+    color: white;
+  }
+  .resume .menu-icon .fa {
+    color: white;
+  }
+  .resume .info-section {
+    padding: 10px 15px;
+    position: static;
+  }
+  .resume .info-section .logo {
+    margin: 0;
+    font-size: 1.8rem;
+    height: 45px;
+    width: 130px;
+  }
+  .resume .info-section .logo span {
+    font-size: 1.3rem;
+  }
+  .resume .info-section .info-box {
+    display: none;
+  }
+  .resume .content-area {
+    margin-left: 0;
+    width: 100%;
+  }
+  .resume .content-area .xp-section {
+    grid-column-gap: 3rem;
+  }
+  .resume .content-area .xp-section:last-child {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .resume .logo {
+    margin: 54px 30px 54px 30px;
+  }
+  .resume .info-section {
+    width: 28%;
+  }
+  .resume .info-section .info-box {
+    margin: 10% 0 10% 10%;
+    padding: 0;
+    bottom: 50px;
+    width: 90%;
+  }
+  .resume .info-section .info-box .icon-section a {
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 0;
+  }
+  .resume .info-section .info-box .icon-section a .fa-github {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .resume .content-area {
+    margin-left: 28%;
+    width: 72%;
+  }
+  .resume .content-area .xp-section {
+    grid-column-gap: 1rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+  .resume .logo {
+    margin: 54px 15%;
+  }
+  .resume .info-section .info-box {
+    padding: 54px 12% 0;
+  }
+}
+@media (min-width: 1281px) {
+  .ghost-btn {
+    margin-right: 15px;
+  }
+}

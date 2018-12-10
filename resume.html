@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,500,600,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="scss/reset.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/home.css">
+    <link rel="stylesheet" href="scss/resume.css">
+    <script type="text/javascript">
+    var count=1;
+      $(document).ready(function(){
+        $("#menubutton").click(function(){
+          $(".resume").toggleClass("menu-active");
+          var cls = $("#menubutton").attr("class");
+          if(count%2==1){
+            $("#menubutton").removeClass(cls);
+            $("#menubutton").addClass("fa fa-times");
+            count++;
+          }
+          else{
+            $("#menubutton").removeClass(cls);
+            $("#menubutton").addClass("fa fa-bars");
+            count++;
+          }
+        });
+      });
+    </script>
+    <title></title>
+
+  </head>
+  <body class="resume">
+    <div class="menu-icon">
+      <i id="menubutton" class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <section id="menu">
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="work.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </section>
+    <section class="info-section">
+      <div class="logo">V<span>aib</span>T<span>ech</span></div>
+      <div class="info-box">
+        <h4>Email</h4>
+        <p>vaibtech1@gmail.com</p>
+        <h4>Phone</h4>
+        <p>(+91) 99284-96992</p>
+        <h4>Find Me On</h4>
+        <div class="icon-section">
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+          <a href="#" alt="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="content-area">
+      <div class="title">
+        <h1>Education</h1>
+      </div>
+      <div class="xp-section">
+        <div class="xp-box">
+          <h5>Bachelor of computer science</h5>
+          <p>Rajasthan technical university, kota</p>
+          <b>Session: 2017-2021</b>
+        </div>
+        <div class="xp-box">
+          <h5>Nano degree of web development</h5>
+          <p>Acme embedded pvt. ltd.</p>
+          <b>Session: 2017-2021</b>
+        </div>
+        <div class="xp-box">
+          <h5>machine learning nano degree</h5>
+          <p>udacity</p>
+          <b>Session: 2019-2020</b>
+        </div>
+      </div>
+      <div class="title">
+        <h1>Work Experience</h1>
+      </div>
+      <div class="xp-section">
+        <div class="xp-box">
+          <h5>Senior fullstack web developer</h5>
+          <p>unknown company (Remote)</p>
+          <b>Session: 2018-2019</b>
+        </div>
+        <div class="xp-box">
+          <h5>Software engineer Intern</h5>
+          <p>Acme Embedded pvt. ltd.</p>
+          <b>Session: 2015-2017</b>
+        </div>
+        <div class="xp-box">
+          <h5>Web Developer</h5>
+          <p>acme embedded pvt. ltd.</p>
+          <b>Session: 2018-201X</b>
+        </div>
+        <div class="xp-box">
+          <h5>Machine learning engineer intern</h5>
+          <p>unknown tech giant</p>
+          <b>Session: 2019-2020</b>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="scss/reset.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,500,600,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    var count=1;
+      $(document).ready(function(){
+        $("#menubutton").click(function(){
+          $(".home").toggleClass("menu-active");
+          var cls = $("#menubutton").attr("class");
+          if(count%2==1){
+            $("#menubutton").removeClass(cls);
+            $("#menubutton").addClass("fa fa-times");
+            count++;
+          }
+          else{
+            $("#menubutton").removeClass(cls);
+            $("#menubutton").addClass("fa fa-bars");
+            count++;
+          }
+        });
+      });
+    </script>
+    <title></title>
+  </head>
+  <body class="home">
+    <div class="menu-icon">
+      <i id="menubutton" class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <section id="menu">
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="work.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </section>
+      <section class="info-section">
+        <div class="logo">V<span>aib</span>T<span>ech</span></div>
+        <div class="info-box">
+          <h4>Email</h4>
+          <p>vaibtech1@gmail.com</p>
+          <h4>Phone</h4>
+          <p>(+91) 99284-96992</p>
+          <h4>Find Me On</h4>
+          <div class="icon-section">
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+            <a href="#" alt="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </section>
+      <section class="content-area">
+        <div class="img-container">
+          <div class="user-img"></div>
+        </div>
+        <div class="profile-section">
+          <div class="profile">
+            <h1>Sachin <br><span>Jangid</span></h1>
+            <h5>Web Developer - VaibTech</h5>
+            <p>I'm Sachin Jangid, a huge Machine Learning lover. A 19-year-old living in a very beautiful and very famous country called India.</p>
+            <a href="work.html" class="primary-btn">Portfolio</a>
+            <a href="resume.html" class="ghost-btn">Resume</a>
+            <a href="contact.html" class="ghost-btn">Contact</a>
+        </div>
+      </div>
+      </section>
+
+  </body>
+</html>
