@@ -133,4 +133,7 @@
   .ghost-btn {
     margin-right: 15px;
   }
+  .resume .content-area{
+    overflow : auto;
+  }
 }
