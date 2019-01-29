@@ -151,7 +151,7 @@
   .home .content-area .profile-section {
     width: 63%;
     float: right;
-    padding: 12% 20px 0 30px;
+    padding: 12% 18px 30px 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
