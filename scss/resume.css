@@ -83,6 +83,7 @@
   .resume .content-area {
     margin-left: 0;
     width: 100%;
+    overflow : auto;
   }
   .resume .content-area .xp-section {
     grid-column-gap: 3rem;
