@@ -116,6 +116,7 @@
   .resume .content-area {
     margin-left: 28%;
     width: 72%;
+    overflow : auto;
   }
   .resume .content-area .xp-section {
     grid-column-gap: 1rem;
@@ -127,6 +128,9 @@
   }
   .resume .info-section .info-box {
     padding: 54px 12% 0;
+  }
+  .resume .content-area{
+    overflow : auto;
   }
 }
 @media (min-width: 1281px) {
