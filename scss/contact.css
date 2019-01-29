@@ -216,6 +216,7 @@
   .contact .content-area {
     margin-left: 0;
     width: 100%;
+    overflow : auto;
   }
   .contact .content-area .img-container {
     padding: 36px 20px 0;
