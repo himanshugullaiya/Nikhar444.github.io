@@ -137,6 +137,7 @@
   .home .content-area {
     margin-left: 0;
     width: 100%;
+    overflow : auto;
   }
   .home .content-area .img-container {
     padding: 56px 20px 0;
