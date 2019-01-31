@@ -84,9 +84,11 @@
     margin-left: 0;
     width: 100%;
     overflow : auto;
+    padding : 0px 19px 52px 39px;
   }
   .resume .content-area .xp-section {
-    grid-column-gap: 3rem;
+    grid-column-gap: 1.2rem;
+    width : 92%;
   }
   .resume .content-area .xp-section:last-child {
     padding-bottom: 50px;
