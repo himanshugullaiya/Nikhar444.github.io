@@ -26,6 +26,13 @@
   grid-row-gap: 0;
   padding: 0;
 }
+.work .info-section .info-box p a {
+  text-decoration: none; 
+  color: white;
+} 
+.work .info-section .info-box p a:hover {
+  color: #f00;
+}
 .work .content-area .project-section .project-box {
   padding: 0;
   position: relative;
