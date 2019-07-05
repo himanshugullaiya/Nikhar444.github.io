@@ -39,6 +39,7 @@
   font-weight: 300;
   color: #fefefe;
   margin: 0.2rem 0 1.6rem;
+  text-decoration: none;
 }
 .home .info-section .icon-section a {
   color: white;
